@@ -1,0 +1,27 @@
+.header_style {
+  background-color: #7A3757;
+}
+
+.header_style .login_signup {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+.header_style .login_signup li {
+  float: right;
+}
+
+.header_style .login_signup li a {
+  cursor: pointer;
+  display: block;
+  padding: 16px 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.header_style .login_signup li a:hover {
+  background-color: #414143;
+  color: #EEE6EA;
+}
+/*# sourceMappingURL=Header.css.map */

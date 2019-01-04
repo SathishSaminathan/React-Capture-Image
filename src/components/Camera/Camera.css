@@ -1,0 +1,96 @@
+.capture {
+  padding: 20px 100px;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.capture .output_image_area {
+  height: 100px;
+  width: 100px;
+}
+
+.capture .output_image_area .image_style {
+  height: 100%;
+  width: 100%;
+}
+
+.capture .camera {
+  height: 100%;
+  width: 50%;
+  border: 1px solid #7A3757;
+}
+
+.capture .camera video {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  cursor: pointer;
+  height: 50px;
+  background-color: #7A3757;
+  color: #EEE6EA;
+  display: block;
+  font-family: "Roboto";
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.button.take_photo_button {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button.take_photo_button:hover span {
+  padding-right: 25px;
+}
+
+.button.take_photo_button:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.button span {
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button span::after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button.save_button {
+  background-color: #259b24;
+}
+/*# sourceMappingURL=Camera.css.map */
